@@ -14,6 +14,10 @@ const Button = styled.button`
     outline: none;
   }
 
+  @media (min-width: 768px) {
+    width: auto;
+  }
+
   &:hover,
   &:active {
     background: #ac0e77;
